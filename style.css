@@ -154,7 +154,17 @@ section:nth-child(even) {
 }
 
 .icons-container .icons {
-    background: #fff;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.icons-container .icons i {
+    font-size: 4.5rem;
+    color: var(--green);
+    padding-bottom: .7rem;
 }
 
 
