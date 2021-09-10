@@ -179,6 +179,20 @@ section:nth-child(even) {
     color: var(--light-color);
 }
 
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.services .box-container .box {
+    background: #fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: var(--border);
+    padding: 2.5rem;
+}
+
 
 
 
