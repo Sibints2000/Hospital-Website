@@ -265,6 +265,15 @@ section:nth-child(even) {
     gap: 2rem;
 }
 
+.doctors .box-container .box {
+    text-align: center;
+    background: #fff;
+    border-radius: .5rem;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+}
+
 
 
 
