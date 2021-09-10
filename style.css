@@ -310,6 +310,7 @@ section:nth-child(even) {
 .doctors .box-container .box .share a:hover {
     background-color: var(--green);
     color: #fff;
+    box-shadow: var(--box-shadow);
 }
 
 
