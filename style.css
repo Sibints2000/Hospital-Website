@@ -121,6 +121,12 @@ html {
         background: #fff;
     }
 
+    .header .navbar a {
+        font-size: 2rem;
+        display: block;
+        margin: 2.5rem;
+    }
+
 }
 
 @media (max-width:450px) {
