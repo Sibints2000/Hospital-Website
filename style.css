@@ -313,6 +313,31 @@ section:nth-child(even) {
     box-shadow: var(--box-shadow);
 }
 
+.book .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.book .row .image {
+    flex: 1 1 45rem;
+}
+
+.book .row .imag  img {
+    width: 100%;
+}
+
+.book .row form {
+    flex: 1 1 45rem;
+    background: #fff;
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
 
 
 
