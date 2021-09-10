@@ -274,6 +274,14 @@ section:nth-child(even) {
     padding: 2rem;
 }
 
+.doctors .box-container .box img {
+    height: 20rem;
+    border: var(--border);
+    border-radius: .5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 
 
 
