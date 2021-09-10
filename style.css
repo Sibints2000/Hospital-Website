@@ -371,6 +371,11 @@ section:nth-child(even) {
     box-shadow: var(--box-shadow);
     border-radius: .5rem;
     padding: 2.5rem;
+    background: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
 }
 
 
