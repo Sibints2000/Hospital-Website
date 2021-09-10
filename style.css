@@ -356,6 +356,10 @@ section:nth-child(even) {
     padding: 1rem;
 }
 
+.book .row form .btn {
+    padding: 1rem;
+}
+
 
 
 
