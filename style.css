@@ -252,10 +252,10 @@ section:nth-child(even) {
     line-height: 1.8;
 }
 
-.about .row .content h3 {
-    color: var(--black);
-    text-shadow: var(--text-shadow);
-    font-size: 4rem;
+.about .row .content p {
+    color: var(--light-color);
+    padding: 1rem 0;
+    font-size: 1.5rem;
     line-height: 1.8;
 }
 
