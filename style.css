@@ -360,6 +360,19 @@ section:nth-child(even) {
     padding: 1rem 4rem;
 }
 
+.review .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
+
+.review .box-container .box {
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 2.5rem;
+}
+
 
 
 
