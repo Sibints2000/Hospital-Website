@@ -339,6 +339,12 @@ section:nth-child(even) {
     border-radius: .5rem;
 }
 
+.book .row form h3 {
+    color: var(--black);
+    padding-bottom: 1rem;
+    font-size: 3rem;
+}
+
 
 
 
