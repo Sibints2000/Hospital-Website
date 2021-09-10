@@ -10,7 +10,7 @@
 }
 
 * {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -124,6 +124,12 @@ html {
         opacity: 0;
         transform-origin: top right;
         transition: none;
+    }
+
+    .header .navbar.active {
+        transform: scale(1);
+        opacity: 1;
+        transition: .2s ease-out;
     }
 
     .header .navbar a {
