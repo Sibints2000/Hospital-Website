@@ -118,7 +118,12 @@ html {
         border-radius: .5rem;
         box-shadow: var(--box-shadow);
         width: 30rem;
+        border: var(--border);
         background: #fff;
+        transform: scale(0);
+        opacity: 0;
+        transform-origin: top right;
+        transition: none;
     }
 
     .header .navbar a {
