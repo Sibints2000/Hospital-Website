@@ -474,6 +474,20 @@ section:nth-child(even) {
     color: var(--green);
 }
 
+.blogs .box-container .box .content h3 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.blogs .box-container .box .content p {
+    color: var(--light-color);
+    font-size: 1.5rem;
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+
+
 
 
 
